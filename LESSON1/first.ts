@@ -2,7 +2,8 @@
 // Primitive Types --> number, string, null, undefind, bigint, symbol, boolean
 // Object Types --> Array, Tuple, Object
 // Special Types --> any, unknown, void, never
-// Advanced Types --> Union, Intersection, Type Alias, Enum, Literal Types
+// Advanced Types --> Union, Intersection, Type Alias, Enum, Literal Types, interface
+// Function Types --> define a function
 
 /* part 1 (Primitive Types) */
 var userName:string = "Aryan";
@@ -51,3 +52,65 @@ function giveError() : never{
 
 
 /* part 4 (Advanced Types) */
+// Union
+var x:number | string;
+x = 123;
+x = "Aryan";
+// console.log(x);
+
+//Intersection
+type Person = { name : string }
+type Employee = { salary : number }
+type EmployeeDetails = Person & Employee
+var emp : EmployeeDetails = { name : "Aryan", salary : 100000 }
+// console.log(emp)
+
+// Literal Types
+type Role = "admin" | "doctor" | "user"
+var userRole : Role = "admin"
+// console.log(userRole);
+
+// Type Alias
+type User = {
+    name : string,
+    age : number,
+    email : string
+}
+
+var userDetails : User = {
+    name : "Aryan",
+    age : 18,
+    email : "aryan@gmail.com"
+}
+// console.log(userDetails);
+
+// interface
+interface JobSeeker {
+    name : string
+}
+interface Devloper extends JobSeeker {
+    skills : string[]
+}
+
+var finalResult : Devloper = {
+    name : "Aryan",
+    skills : ["javascript", "typescript"]
+}
+// console.log(finalResult);
+
+// Enum
+enum AssignRole {
+   Doctor,  // [0]
+   User,  // [1]
+   HealthWorker // [2]
+}
+
+var Role : AssignRole = AssignRole.HealthWorker
+// console.log(Role); // 2
+
+
+/* part 5 (Function Types) */
+function add( a:number, b:number) : number{ // Parameter and return both will be number
+    return a+b
+}
+console.log(add(5,10)); // 15

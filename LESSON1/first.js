@@ -3,7 +3,8 @@
 // Primitive Types --> number, string, null, undefind, bigint, symbol, boolean
 // Object Types --> Array, Tuple, Object
 // Special Types --> any, unknown, void, never
-// Advanced Types --> Union, Intersection, Type Alias, Enum, Literal Types
+// Advanced Types --> Union, Intersection, Type Alias, Enum, Literal Types, interface
+// Function Types --> define a function
 /* part 1 (Primitive Types) */
 var userName = "Aryan";
 var age = 18.5;
@@ -40,3 +41,33 @@ function giveError() {
 }
 // console.log(giveError())
 /* part 4 (Advanced Types) */
+// Union
+var x;
+x = 123;
+x = "Aryan";
+var emp = { name: "Aryan", salary: 100000 };
+var userRole = "admin";
+var userDetails = {
+    name: "Aryan",
+    age: 18,
+    email: "aryan@gmail.com"
+};
+var finalResult = {
+    name: "Aryan",
+    skills: ["javascript", "typescript"]
+};
+// console.log(finalResult);
+// Enum
+var AssignRole;
+(function (AssignRole) {
+    AssignRole[AssignRole["Doctor"] = 0] = "Doctor";
+    AssignRole[AssignRole["User"] = 1] = "User";
+    AssignRole[AssignRole["HealthWorker"] = 2] = "HealthWorker"; // [2]
+})(AssignRole || (AssignRole = {}));
+var Role = AssignRole.HealthWorker;
+// console.log(Role); // 2
+/* part 5 (Function Types) */
+function add(a, b) {
+    return a + b;
+}
+console.log(add(5, 10)); // 15
