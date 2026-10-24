@@ -8,9 +8,9 @@
  7. decimal with number datatype
 */
 
-var num1 : number = 5
-var num2 : number = 10
-var total:number = num1 + num2
+var numberOne : number = 5
+var numberTwo : number = 10
+var total:number = numberOne + numberTwo
 // console.log(total);
 
 // Using binary, octal, hexadecimal values
@@ -20,8 +20,8 @@ var hexadecimal : number = 0x189ADEF // 25800175
 // console.log(octal, binary, hexadecimal);
 
 // 5. convert string to number
-var val1:number = 100;
-var val2 = "50";
-var val3 = Number(val2)
-var val4 = +val2
-console.log(val1 + val4);
+var valueOne:number = 100;
+var ValueTwo = "50";
+var val3 = Number(ValueTwo)
+var valueFour = +ValueTwo
+console.log(valueOne + valueFour);

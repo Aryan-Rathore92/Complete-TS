@@ -1,13 +1,13 @@
-var val1 = Symbol()
-var val2 = Symbol();
-console.log(val1 == val2); // false
+var firstValue = Symbol()
+var secondValue = Symbol();
+console.log(firstValue == secondValue); // false
 
 
-var val3 :Symbol = Symbol('abc')
-var val4 :Symbol = Symbol('abc')
-console.log(val3 == val4); // false
+var thirdValue :Symbol = Symbol('abc')
+var fourthValue :Symbol = Symbol('abc')
+console.log(thirdValue == fourthValue); // false
 
-console.log(val3, val4); // Symbol(abc) Symbol(abc)
+console.log(thirdValue, fourthValue); // Symbol(abc) Symbol(abc)
 
 var uniqueId = Symbol();
 const obj = {

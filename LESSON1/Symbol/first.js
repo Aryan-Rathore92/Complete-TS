@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var val1 = Symbol();
 var val2 = Symbol();
 console.log(val1 == val2); // false

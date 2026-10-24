@@ -10,15 +10,15 @@
 
 var str1 : string = "Aryan rathore"
 var str2 : string = 'Aryan rathore'
-var username = "Aryan Rathore"
+var userName = "Aryan Rathore"
 var age = 18
-var str3 : string = `Name is ${username} and age is ${age} `
+var str3 : string = `Name is ${userName} and age is ${age} `
 // console.log(str3);
 // console.log(str1 + str2 + str3);
 
-var val1 : number = 100
-var val2 : string = val1.toString() // convert number into string
-var val3 : string = "" + val1 // convert number into string
+var valueOne1 : number = 100
+var valueTwo2 : string = valueOne1.toString() // convert number into string
+var valueThree3 : string = "" + valueOne1 // convert number into string
 console.log(val3);
 
 var bool1 : boolean = true

@@ -10,7 +10,7 @@ var userName:string = "Aryan";
 var age:number = 18.5;
 var gender:boolean = true
 var work = null
-var m:undefined = undefined
+var m:undefined= undefined
 var done:symbol = Symbol('name')
 // console.log(userName, "=",age,gender)
 
@@ -31,7 +31,7 @@ var firstObj: {name:string, age:number} = {name: "Aryan", age: 18}
 
 
 /* part 3 (Special Types) */
-var a : any = "aryan"
+var z : any = "aryan"
 var storeString: any = 12345
 // console.log(a, storeString)
 

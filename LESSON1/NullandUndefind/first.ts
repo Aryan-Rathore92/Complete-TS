@@ -18,7 +18,7 @@ if(login) username="aryan"
 // console.log(username);
 
 var m : undefined = undefined
-var n = null
+var e = null
 
-console.log(m == n); // true 
-console.log(m === n);// false
+console.log(m == e); // true 
+console.log(m === e);// false

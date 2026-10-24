@@ -1,5 +1,6 @@
 "use strict";
 // console.log(Number.MAX_SAFE_INTEGER); // 9007199254740991
+Object.defineProperty(exports, "__esModule", { value: true });
 var num1 = 9007199254740991;
 var m = 1;
 var n = 2;
