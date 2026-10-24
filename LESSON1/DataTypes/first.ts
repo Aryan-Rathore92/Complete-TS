@@ -10,7 +10,7 @@ var userName:string = "Aryan";
 var age:number = 18.5;
 var gender:boolean = true
 var work = null
-var username:undefined = undefined
+var m:undefined = undefined
 var done:symbol = Symbol('name')
 // console.log(userName, "=",age,gender)
 
