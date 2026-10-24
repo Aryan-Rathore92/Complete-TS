@@ -6,6 +6,7 @@
  4. how to use undefind
  5. possible values
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 var val1 = null;
 var val = undefined;
 var val2 = undefined;

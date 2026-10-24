@@ -5,12 +5,13 @@
 // Special Types --> any, unknown, void, never
 // Advanced Types --> Union, Intersection, Type Alias, Enum, Literal Types, interface
 // Function Types --> define a function
+Object.defineProperty(exports, "__esModule", { value: true });
 /* part 1 (Primitive Types) */
 var userName = "Aryan";
 var age = 18.5;
 var gender = true;
 var work = null;
-var username = undefined;
+var m = undefined;
 var done = Symbol('name');
 // console.log(userName, "=",age,gender)
 /* part 2 (Object Types) */

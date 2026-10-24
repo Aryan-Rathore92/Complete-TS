@@ -8,6 +8,7 @@
   6. Inference and declaraton issue
   7. run with html file
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 var str1 = "Aryan rathore";
 var str2 = 'Aryan rathore';
 var username = "Aryan Rathore";

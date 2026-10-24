@@ -8,6 +8,7 @@
  6. type inference with number
  7. decimal with number datatype
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 var num1 = 5;
 var num2 = 10;
 var total = num1 + num2;
