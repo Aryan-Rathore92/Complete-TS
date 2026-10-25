@@ -26,3 +26,7 @@ function anything() {
     return ['a', 'b', 'c'];
 }
 console.log(anything());
+function blank() {
+    console.log("This is an void fnc");
+}
+console.log(blank());

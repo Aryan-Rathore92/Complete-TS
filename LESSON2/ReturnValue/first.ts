@@ -29,3 +29,9 @@ function anything() : any {
 }
 
 console.log(anything());
+
+function blank() : void{
+    console.log("This is an void fnc");
+}
+
+console.log(blank());
