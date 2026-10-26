@@ -1,4 +1,5 @@
 "use strict";
+// classess is the blueprint of objects
 class Product {
     constructor(name, price, productId) {
         this.inCart = false;

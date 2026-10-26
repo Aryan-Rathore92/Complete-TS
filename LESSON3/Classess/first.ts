@@ -1,3 +1,4 @@
+// classess is the blueprint of objects
 class Product {
   name: string;
   price: number;
