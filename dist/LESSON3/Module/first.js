@@ -1,4 +1,4 @@
-import { Auth } from "../Inheritance/first";
+import { Auth } from "../Inheritance/first.js";
 var helloGuys = {
     name: "Sarthak",
     email: "sarthak@gmail.com",
