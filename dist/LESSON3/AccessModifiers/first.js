@@ -32,7 +32,7 @@ var myClgStudent = new Student("Aryan", "MZN", 1234567890);
 console.log(myClgStudent);
 class Teacher extends Student {
     constructor() {
-        super("sarthak", "MZN", 1919191919);
+        super("sarthak", "MZN", 1919191919); // super --> does call to the parent class constructor
     }
     getDistrict() {
         return this.district;
