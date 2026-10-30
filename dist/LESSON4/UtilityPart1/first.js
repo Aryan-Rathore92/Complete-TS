@@ -27,7 +27,7 @@ var learnReadOnly = {
 };
 // learnReadOnly.location = "A"; // That is not allow because it read only, you can't change properties
 console.log(learnReadOnly);
-// Pick
+// Pick [ Through pick you can set requirement only important keyes like - name, location only required]
 function learningPick(data) {
     console.log(data);
 }
